@@ -2,13 +2,13 @@
 Tourism on Twitter
 Menciones de turismo en twitter.
   - Campos:
-  - Periodo de tiempo: noviembre 2017
-  - Recolección: Mediante aplicativo programado en Nodejs, el cual abre un socket contra la api de twitter usando el servicio  "statuses/filter"
+    - Periodo de tiempo: noviembre 2017
+    - Recolección: Mediante aplicativo programado en Nodejs, el cual abre un socket contra la api de twitter usando el servicio  "statuses/filter"
   - Proceso: 
    1.- Escucha activa en twitter y almacenamiento en fichero de los datos en formato json.
    2.- Filtrado de campos elegidos y conversión de json a csv.
 
- - Agradecimientos:
+ - Agradecimientos: API Twitter
   - Programa base nodejs
   - Json2csv
   
